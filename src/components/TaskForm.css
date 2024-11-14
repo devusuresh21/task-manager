@@ -1,0 +1,67 @@
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 50px;
+    border: 1px solid #130505;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #b091c1;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #070606;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .task-list {
+    display: flex;          
+    flex-wrap: wrap;        
+    gap: 15px;             
+    margin-top: 20px;
+  }
+  
+  .task-item {
+    flex: 1 1 calc(33% - 10px);
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: #689fe2;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  button.complete {
+    background-color: green;
+  }
+  
+  button.complete:hover {
+    background-color: darkgreen;
+  }
+  
